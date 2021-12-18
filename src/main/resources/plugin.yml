@@ -1,0 +1,13 @@
+name: LightCraft
+version: '${project.version}'
+main: io.github.beezza.lightcraft.LightCraft
+api-version: 1.18
+prefix: [ LightCraft ]
+authors: [ Beezza ]
+description: Lightweight Plugin For Minecraft 1.18
+website: https://github.com/Beezza8/LightCraft
+
+commands:
+  hellobees:
+    usage: /hellobees
+    description: Test Command
