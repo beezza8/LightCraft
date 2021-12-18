@@ -12,10 +12,16 @@ public final class LightCraft extends JavaPlugin {
         /*Registering Commands*/
         getCommand("hellobees").setExecutor(new hellobees());
         getLogger().info("Registered Success");
+
+
+        super.onEnable();
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("LightCraft Disabled!");
+
+
+        super.onDisable();
     }
 }
