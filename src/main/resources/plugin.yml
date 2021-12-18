@@ -11,3 +11,6 @@ commands:
   hellobees:
     usage: /hellobees
     description: Test Command
+  rank:
+    usage: /rank <PlayerName> <RankName>
+    description: Give rank to player
